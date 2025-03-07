@@ -1,4 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
+import Resume from './Resume';
+import AboutMe from './AboutMe';
 
 function App() {
 
