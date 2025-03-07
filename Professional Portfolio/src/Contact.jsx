@@ -54,7 +54,7 @@ function Form() {
             <div className="contact-info">
                 <div className="contact-info-item">
                     <p className="contact-info-label">Email</p>
-                    <p className="contact-info-value">tiecaelwaerts@gmail.com</p>
+                    <p className="contact-info-value">dkobes15@gmail.com@gmail.com</p>
                 </div>
             </div>
 
