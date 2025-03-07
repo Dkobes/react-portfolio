@@ -18,7 +18,7 @@ footer {
 }
 
 .name {
-  font-size: 2em;
+  font-size: 3em;
   margin: 0;
 
 }
@@ -34,12 +34,13 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: flex-end;
+  font-size: 15px;
   padding: 50px;
   margin: 0;
 }
 
 nav li {
-  margin: 0 1em;
+  margin: 0 3em;
 }
 
 nav a {
