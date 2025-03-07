@@ -1,3 +1,56 @@
+footer {
+  text-align: center;
+  padding: 1em auto;
+  background: #333;
+  color: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(197, 8, 197, 0.422);
+}
+
+.name {
+  font-size: 2em;
+  margin: 0;
+
+}
+
+.profile-pic {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin: 1em auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;

@@ -1,7 +1,7 @@
 import React from "react";
-import adventurersBoard from "./assets/adventurersBoard.jpg";
-import spellCaster from "./assets/spellCaster.jpg";
-import treasureBarBrawl from "./assets/treasureBarBrawl.jpg";
+import adventurersBoard from "../assets/adventurersBoard.jpg";
+import spellCaster from "../assets/spellCaster.jpg";
+import treasureBarBrawl from "../assets/treasureBarBrawl.jpg";
 
 const Portfolio = () => {
     const projects = [
