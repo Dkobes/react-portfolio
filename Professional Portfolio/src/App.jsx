@@ -8,7 +8,7 @@ function App() {
 
   return (
     <Router>
-      <Header />
+      <Header>
       <main>
       <Routes>
         <Route path="/" element={<AboutMe />} />
@@ -17,6 +17,7 @@ function App() {
         <Route path="/resume" element={<Resume />} />
       </Routes>
       </main>
+      </Header>
       <Footer />
     </Router>
   );
