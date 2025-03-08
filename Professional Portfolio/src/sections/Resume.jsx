@@ -1,9 +1,10 @@
 import React from 'react';
+import Resume from '../assets/resume.pdf';
 
 const Resume = () => {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/path/to/your/resume.pdf'; // Update this path to your resume file
+        link.href = './assets/resume.pdf'; 
         link.download = 'resume.pdf';
         link.click();
     };
