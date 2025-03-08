@@ -12,7 +12,7 @@ const AboutMe = () => {
                     Health Administation, and recently graduated from a coding bootcamp through the University of Madison, Wisconsin. I was able to hone my skills in modern technologies, 
                     including JavaScript, React, Node.js, and MongoDB.
                 </p>
-                <p className="about-me-text">
+                <p className="about-me-text-2">
                     I am passionate about creating applications that are both user-friendly and visually appealing. 
                     I thrive on always looking for new opportunities to learn and grow as a developer. My projects showcase the expertise I have gained in web development along with
                     my ability to work with a team to create applications that meet the needs of the user. 

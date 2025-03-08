@@ -14,6 +14,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  height: auto;
   padding: 10px 20px;
   margin: 0;
   background-color: rgba(197, 8, 197, 0.422);
@@ -24,6 +25,23 @@ footer {
   font-size: 3em;
   margin: 0;
 
+}
+
+.about-me-text {
+  font-size: 1.2em;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 1em;
+}
+
+.about-me-text-2 {
+  font-size: 1.2em;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0.5em;
+  padding-bottom: 75px;
 }
 
 .profile-pic {
@@ -80,7 +98,7 @@ a:hover {
 
 .contact-form-container {
   max-width: 700px;
-  margin: 4em auto;
+  margin: 5em auto;
   padding: 2em;
   background-color: #f9f9f9;
   border: 1px solid #ccc;
@@ -110,6 +128,7 @@ a:hover {
 
 .form-submit-button {
   padding: 0.8em 1.5em;
+  margin-top: 2em;
   background-color: #d400bb61;
   color: black;
   border: none;
@@ -130,7 +149,7 @@ a:hover {
 
 .resume-container {
   font-family: Arial, sans-serif;
-  margin: 0;
+  margin: 0.5em auto;
   padding: 0;
   width: 100%;
   display: flex;
