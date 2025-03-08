@@ -1,18 +1,29 @@
 import React from 'react';
-import Resume from './public/resume.pdf';
 
 const Resume = () => {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = './assets/resume.pdf'; 
+        link.href = '/resume.pdf'; 
         link.download = 'resume.pdf';
         link.click();
     };
 
     return (
-        <div>
-            <h1>My Resume</h1>
-            <button onClick={handleDownload}>Download Resume</button>
+        <div className="resume-container">
+            <h1 className="resume-title">My Resume</h1>
+            <h3>Proficiencies</h3>
+            <ul className="resume-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Postgres</li>
+                <li>Sequelize</li>
+                <li>Express</li>
+                <li>GitHub</li>
+            </ul>
+            <button className="resume-button" onClick={handleDownload}>Download Resume</button>
         </div>
     );
 };
