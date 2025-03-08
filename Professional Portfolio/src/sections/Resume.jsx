@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../assets/resume.pdf';
+import Resume from './public/resume.pdf';
 
 const Resume = () => {
     const handleDownload = () => {
