@@ -2,6 +2,7 @@ import React from "react";
 import adventurersBoard from "../assets/adventurersBoard.jpg";
 import spellCaster from "../assets/spellCaster.jpg";
 import treasureBarBrawl from "../assets/treasureBarBrawl.jpg";
+import candidateSearch from "../assets/candidate-search.jpg";
 
 const Portfolio = () => {
     const projects = [
@@ -31,7 +32,7 @@ const Portfolio = () => {
             description: "A way to search for candidates based on their skills and location.",
             deployedLink: "https://candidate-search-vjtv.onrender.com",
             githubLink: "https://github.com/Dkobes/Candidate-Search",
-            image: candidate-search
+            image: candidateSearch
         },
     ];  
 
