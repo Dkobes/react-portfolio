@@ -3,6 +3,7 @@ import adventurersBoard from "../assets/adventurersBoard.jpg";
 import spellCaster from "../assets/spellCaster.jpg";
 import treasureBarBrawl from "../assets/treasureBarBrawl.jpg";
 import candidateSearch from "../assets/candidate-search.jpg";
+import kanban from '../assets/kanban.jpg';
 
 const Portfolio = () => {
     const projects = [
@@ -33,6 +34,13 @@ const Portfolio = () => {
             deployedLink: "https://candidate-search-vjtv.onrender.com",
             githubLink: "https://github.com/Dkobes/Candidate-Search",
             image: candidateSearch
+        },
+        {
+            title: "Kanban Board",
+            description: "A board that allows users to create To-Do lists.",
+            deployedLink: "https://kanban-board-5gqw.onrender.com",
+            githubLink: "https://github.com/Dkobes/Kanban-Board",
+            image: kanban
         },
     ];  
 
