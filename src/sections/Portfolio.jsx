@@ -26,6 +26,13 @@ const Portfolio = () => {
             githubLink: "https://github.com/Dkobes/Treasure-Bar-Brawl",
             image: treasureBarBrawl
         },
+        {
+            title: "Candidate Search",
+            description: "A way to search for candidates based on their skills and location.",
+            deployedLink: "https://candidate-search-vjtv.onrender.com",
+            githubLink: "https://github.com/Dkobes/Candidate-Search",
+            image: candidate-search
+        },
     ];  
 
     return (
