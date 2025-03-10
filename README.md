@@ -1,4 +1,5 @@
 # Portfolio
+![alt text](image.png)
 
 # Table of Contents 
 1. [Description] (#description)
