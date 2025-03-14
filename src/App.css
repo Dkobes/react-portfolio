@@ -112,6 +112,10 @@ a:hover {
   gap: 1em;
 }
 
+.contact-info-label, .contact-info-value, .form-label {
+  font-weight: bold;
+}
+
 .form-group {
   display: flex;
   flex-direction: column;
