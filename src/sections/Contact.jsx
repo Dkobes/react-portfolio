@@ -5,6 +5,7 @@ function Form() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [error, setError] = useState('');
+    const [success, setSuccess] = useState('');
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -16,11 +17,26 @@ function Form() {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (handleEmptyFields()) {
+            email.js.send(
+                'service_4soad3n',
+                'template_r7i8sl4',
+            {
+                name,
+                email,
+                message,
+            },
+            'FBuOR4KrQPOUB9SfI'
+        )
+        .then(() => {
             setName('');
             setEmail('');
             setMessage('');
-        }
-    };
+        })
+        .catch(() => {
+            setError('Failed to send email. Please try again later.')
+        });
+    }
+};
 
     const handleEmptyFields = () => {
         const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
